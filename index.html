@@ -17,11 +17,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="CSS/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>
-        document.getElementById("search-button").addEventListener("click", function() {
-            window.location.href = "musicatrentina.html";
-        });
-    </script>
+    <script src="ricerca.js"> </script>
     </head>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0ESREF4Y00"></script>
@@ -48,8 +44,8 @@
             <i class="fa-solid fa-lightbulb"style="font-size: 1.5em;"></i> <br>
             <p>Come funziona? <br> Cerca la zona che preferisci</p>
             <form action="musicatrentina.html" method="get">
-                <input type="text" id="search-box" placeholder="Cerca...">
-                <button type="button" id="search-button">Cerca</button>
+                <input type="text" id="searchInput" placeholder="Cerca...">
+  <button type="button" onclick="search()">Cerca</button>
             </form>
         </section>
 <br>
