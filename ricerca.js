@@ -21,7 +21,7 @@ function search() {
           location.href = 'musicavaldisole.html';
            break;
           
-      case 'alpecimbra':
+      case 'alpe cimbra':
            location.href = 'musicaalpecimbra.html';
            break;    
       
