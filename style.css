@@ -102,12 +102,16 @@ p {
     font-size: 20px;
       
 }
-p2 {
-    padding: 3px 3px 0px 3px;
-    margin-bottom: 20px;
 
+main {
+    text-align: center;
+    position: relative;
+    padding: 5px 60px 5px 60px;
 }
 
-  
-  
+
+
+
+
+
 
