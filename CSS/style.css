@@ -38,7 +38,7 @@ header {
 .nosottolineato {
     text-decoration: none;
     color: black;
-    padding: 13px 13px 13px 13px;
+    padding: 10px 10px 10px 10px;
 }
 
 .sottolineato {
@@ -102,12 +102,24 @@ p {
     font-size: 20px;
       
 }
-p2 {
-    padding: 3px 3px 0px 3px;
-    margin-bottom: 20px;
 
+main {
+    text-align: center;
+    position: relative;
+    background-color: whitesmoke;
+    margin: 5px 60px 5px 60px;
+    border-radius: 5px;
 }
+img {
+    width: 50%; 
+    height: auto; 
+  }
 
   
-  
+
+
+
+
+
+
 
