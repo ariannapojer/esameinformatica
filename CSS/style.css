@@ -12,7 +12,7 @@ nav ul li {
     font-weight: 700;
     display: inline-block;
     font-family: 'Bebas Neue', cursive;
-    font-size: 23px;
+    font-size: 22px;
 }
 
 nav ul {
@@ -103,21 +103,23 @@ p {
       
 }
 
-main {
+img {
+    width: 50%; 
+    height: auto;
+    padding: 3px;
+    
+}
+
+ main {
     text-align: center;
     position: relative;
     margin: 5px 50px 5px 50px;
     border-radius: 5px;
-    background-image: url(sfumata.JPG);
+    background-image: url(modifica.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
-}
-
-img {
-    width: 50%; 
-    height: auto; 
- }
+} 
 
   
 
